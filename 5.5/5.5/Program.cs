@@ -35,7 +35,7 @@ namespace _5._5
             // В задании не было написано вывести фразу, мне просто показалось оно неполным без этого
             foreach (var invertedPhraseInArray in result)
             {
-                Console.WriteLine(invertedPhraseInArray);
+                Console.Write($"{invertedPhraseInArray} ");
             }
         }
         #region
